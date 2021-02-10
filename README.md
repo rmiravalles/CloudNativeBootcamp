@@ -1,2 +1,2 @@
 # CloudNativeBootcamp
-Projects from the Cloudskills Cloud Native Bootcamp
+This is the repository for the Cloud Native Bootcamp projects.
