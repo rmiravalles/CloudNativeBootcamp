@@ -1,2 +1,10 @@
 # CloudNativeBootcamp
 This is the repository for the Cloud Native Bootcamp projects.
+
+## Week 1
+
+For this first week, we are presented with 3 projects:
+
+- [x] Create an AWS account
+- [x] Create an Azure account
+- [x] Create a GitHub account
