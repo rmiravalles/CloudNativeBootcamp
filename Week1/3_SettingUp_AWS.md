@@ -2,7 +2,7 @@
 
 In this project, I'll create an AWS account.
 
-I didn't have one, so I followed the steps on the video and created my own account.
+I didn't have one, so I followed the steps on the video and created my own account. I am complete beginner, and I heven't had any contact with AWS until now. I have to focus on that!
 
 Next steps:
 
