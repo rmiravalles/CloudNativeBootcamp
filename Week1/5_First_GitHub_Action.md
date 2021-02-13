@@ -49,5 +49,5 @@
 ![Learn GitHub Actions 2](helloworldaction1.png)
 <br><br>
 ![Learn GitHub Actions 3](helloworldaction2.png)
-<br>
+<br><br>
 ![Learn GitHub Actions 4](helloworldaction3.png)
