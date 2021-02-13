@@ -43,4 +43,11 @@
 ## My first workflow
 
 - GitHub Actions uses YAML syntax to define the events, jobs, and steps. These YAML files are stored in your code repository, in a directory called `.github/workflows`
-
+<br><br>
+![Learn GitHub Actions](myfirstgithubaction.png)
+<br><br>
+![Learn GitHub Actions 2](helloworldaction1.png)
+<br><br>
+![Learn GitHub Actions 3](helloworldaction2.png)
+<br>
+![Learn GitHub Actions 4](helloworldaction3.png)
