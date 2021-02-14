@@ -2,10 +2,15 @@
 
 ## Overview
 
+- GitHub Actions can be used to implement continuous integration (CI) for code that is maintained in GitHub repositories
+- CI is the practice of using automation to build and test software every time a developer commits changes to version control.
 - GitHub Actions help you automate tasks within your software development lifecycle
 - Event-driven
 - An event automatically triggers a *workflow*, which contains a *job*
 - A job uses *steps* to control the order in which *actions* are run
+- There are two types of Actions: container actions and JavaScript actions
+  - With container actions, the environment is part of the action's code. These actions can only be run in a Linux environment that GitHub hosts. Container actions support many different languages
+  - JavaScript actions don't include the environment in the code, which means you'll have to specify the environment to execute these actions. Actions can run in a VM in the cloud or on-premises
 
 ## Components of GitHub Actions
 
