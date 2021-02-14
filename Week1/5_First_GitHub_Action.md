@@ -54,9 +54,5 @@
 ![Learn GitHub Actions 2](helloworldaction1.png)
 <br><br>
 ![Learn GitHub Actions 3](helloworldaction2.png)
-<<<<<<< HEAD
-<br>
-=======
 <br><br>
->>>>>>> f05ee5ebd18ae10f4e0c10dcfeebb13b9440389a
 ![Learn GitHub Actions 4](helloworldaction3.png)
