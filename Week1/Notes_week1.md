@@ -1,6 +1,6 @@
 # DevOps Fundamental Skills
 
-### Introduction
+## Introduction
 
 The most important thing: **DON'T PANIC**:exclamation::exclamation:
 
@@ -9,21 +9,21 @@ The most important thing: **DON'T PANIC**:exclamation::exclamation:
 ## DevOps Predictions for 2021
 
 - Culture and leadership
-    - Organizations are starting to value the DevOps culture more and more
-    - The ability to have multiple teams working together
-    - We all need to find ways to communicate more
-    - **Collaboration**
+  - Organizations are starting to value the DevOps culture more and more
+  - The ability to have multiple teams working together
+  - We all need to find ways to communicate more
+  - **Collaboration**
 - Hybrid teams
-    - Remote teams are the norm now
+  - Remote teams are the norm now
 - Application security
-    - Security is, unfortunatelly, an afterthought most of the times
-    - Security must be at the forefront of every deployment decision
+  - Security is, unfortunately, an afterthought most of the times
+  - Security must be at the forefront of every deployment decision
 - Cloud adoption
-    - The public cloud is expected to grow
+  - The public cloud is expected to grow
 - **DevOps is for the business**
-    - DevOps is very much a business position, not simply an engineering one
-    - Without DevOps there wouldn't be a business
-    - The DevOps pro is a key stakeholder in the organization
+  - DevOps is very much a business position, not simply an engineering one
+  - Without DevOps there wouldn't be a business
+  - The DevOps pro is a key stakeholder in the organization
 - Developers will have more say
 - DevOps is still one of the more increasingly needed roles
 
@@ -41,17 +41,17 @@ DevOps, as a position, has been around for a few years.
 ## Collaboration
 
 - Communication
-    - The ability to communicate with your team is crucial
-    - A constant line of communication has to exist
+  - The ability to communicate with your team is crucial
+  - A constant line of communication has to exist
 - Working together
-    - With good communication comes good ideas
-    - With good ideas come good theories
-    - With good theories come good products
+  - With good communication comes good ideas
+  - With good ideas come good theories
+  - With good theories come good products
 - Working with management
-    - The only way for a team to succeed
-    - Management and engineers must be on the same page
+  - The only way for a team to succeed
+  - Management and engineers must be on the same page
 - Working with other teams
-    - It's all about communication and collaboration
+  - It's all about communication and collaboration
 - Goals should be aligned
 
 ## Working with the Business
@@ -62,20 +62,21 @@ DevOps, as a position, has been around for a few years.
 - Your own goals and the business goals must align
 
 ## Major DevOps Tooling
+
 <br>
 
 ![DevOps Tools](devops-tools.png)
 
 - Coding and development practices
-    - Azure: most popular are PowerShell, Python and JavaScript
-    - AWS: most popular are Python, JavaScript, Java and Go
+  - Azure: most popular are PowerShell, Python and JavaScript
+  - AWS: most popular are Python, JavaScript, Java and Go
 - Orchestration (Kubernetes)
 - Containerization (Docker, containerd, CRI-O)
-    - Azure has its own containerization platform: Azure Container Instances (ACI)
-    - In AWS, there are AWS Elastic Container Services and AWS Fargate
+  - Azure has its own containerization platform: Azure Container Instances (ACI)
+  - In AWS, there are AWS Elastic Container Services and AWS Fargate
 - Monitoring
-    - Azure: Application Insights, Azure Monitor, Prometheus
-    - AWS: Cloud Watch, Lambda Insights, Prometheus
+  - Azure: Application Insights, Azure Monitor, Prometheus
+  - AWS: Cloud Watch, Lambda Insights, Prometheus
 - Cloud
 - CI/CD
 - Infrastructure-as-code
@@ -85,12 +86,12 @@ DevOps, as a position, has been around for a few years.
 - You don't have to be a hacker, but you have to have an understanding of software and development security skills
 - Start thinking about security from the application perspective
 - Faster deployments == more vulnerability
-    - Many CI/CDs pipelines aren't checking for security vulnerabilities
+  - Many CI/CDs pipelines aren't checking for security vulnerabilities
 - Core software security competencies
-    - Static code analysis
-    - Unit testing
-    - Performance testing
-    - **These tests should always be in the CI portion of your pipeline**
+  - Static code analysis
+  - Unit testing
+  - Performance testing
+  - **These tests should always be in the CI portion of your pipeline**
 
 ## Command Line (CLI)
 
@@ -108,13 +109,13 @@ DevOps, as a position, has been around for a few years.
 - The more eyes on the code the better
 - Everyone is aware
 - Centralized version control
-    - One server
-    - everyone uses the code from this one server
-    - Very hard to collaborate
+  - One server
+  - everyone uses the code from this one server
+  - Very hard to collaborate
 - Distributed version control
-    - Most popular today
-    - Allows anyone to download and have a working copy of the code on their local hosts, typically referred to as a local repo
-    - Allows multiple people to work with the code at the same time
+  - Most popular today
+  - Allows anyone to download and have a working copy of the code on their local hosts, typically referred to as a local repo
+  - Allows multiple people to work with the code at the same time
 
 ## CI/CD
 
@@ -146,4 +147,4 @@ DevOps, as a position, has been around for a few years.
 1. Invent the new reality
     1. Focus on the vision and build to the new reality. Incrementally. Every day.
 
-:star:
+:star: :star: :star: :star: :star:
