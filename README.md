@@ -21,3 +21,39 @@ Projects:
 - [x] [Setting up your first AWS environment](Week1/3_SettingUp_AWS.md)
 - [x] [Setting up projects in GitHub](Week1/4_GitHub_Projects.md)
 - [x] [Setting up your first GitHub Action](Week1/5_First_GitHub_Action.md)
+
+## Week 2: Scripting Like a Developer
+
+*February 17th*
+
+## Week 3: Infrastructure as Code
+
+*February 24th*
+
+## Week 4: GitHub and Source Control
+
+*March 3rd*
+
+## Week 5: Continuous Integration, Continuous Deployment, and Continuous Delivery
+
+*March 10th*
+
+## Week 6: Serverless in Azure ans AWS
+
+*March 17th*
+
+## Week 7: Security in Azure and AWS
+
+*March 24th
+
+## Week 8: Containerization and Kubernetes
+
+*March 31st*
+
+## Week 9: Monitoring and Logging
+
+*April 7th*
+
+## Week 10: Where To Go From Here (Career Prep)
+
+*April 14th
