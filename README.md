@@ -14,7 +14,7 @@ In the lecture, Michael mentions 3 books that are a must read: [The Phoenix Proj
 
 - [My notes](Week1/Notes_week1.md)
 
-Projects:
+### Projects
 
 - [x] [Getting started with GitHub](Week1/1_GitHub_Getting_Started.md)
 - [x] [Setting up your first Azure environment](Week1/2_SettingUp_Azure.md)
@@ -25,6 +25,19 @@ Projects:
 ## Week 2: Scripting Like a Developer
 
 *February 17th*
+
+In this session, Michael Levan gives us an introduction to coding.
+
+- [My notes](Week2/Notes_week2.md)
+
+### Projects
+
+- [ ] [Setting up a dev environment from start to finish](Week2/1_dev_environment.md)
+- [ ] [Reusable and clean Python code](Week2/2_Reusable_clean_Python.md)
+- [ ] [Reusable and clean PowerShell code](Week2/3_Reusable_PowerShell_code.md)
+- [ ] [Linting in PowerShell and Python](Week2/4_Linting_PowerShell_Python.md)
+- [ ] [Testing in PowerShell and Python](Week2/5_Testing_PowerShell_Python.md)
+- [ ] [Documenting code](Week2/6_Documenting_code.md)
 
 ## Week 3: Infrastructure as Code
 

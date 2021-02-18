@@ -2,5 +2,7 @@
     "cSpell.ignoreWords": [
         "containerd",
         "levan"
-    ]
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
