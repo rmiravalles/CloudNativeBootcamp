@@ -32,8 +32,8 @@ In this session, Michael Levan gives us an introduction to coding.
 
 ### Projects
 
-- [ ] [Setting up a dev environment from start to finish](Week2/1_dev_environment.md)
-- [ ] [Reusable and clean Python code](Week2/2_Reusable_clean_Python.md)
+- [x] [Setting up a dev environment from start to finish](Week2/1_dev_environment.md)
+- [x] [Reusable and clean Python code](Week2/2_Reusable_clean_Python.md)
 - [ ] [Reusable and clean PowerShell code](Week2/3_Reusable_PowerShell_code.md)
 - [ ] [Linting in PowerShell and Python](Week2/4_Linting_PowerShell_Python.md)
 - [ ] [Testing in PowerShell and Python](Week2/5_Testing_PowerShell_Python.md)
