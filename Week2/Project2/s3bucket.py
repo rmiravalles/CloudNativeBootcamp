@@ -11,6 +11,7 @@ except Exception as e:
 def create_s3bucket(BUCKET_NAME):
     s3_bucket = boto3.client(
         's3',
+        #region-name='us-east-1'
     )
 
     bucket = s3_bucket.create_bucket(
@@ -24,3 +25,4 @@ BUCKET_NAME = sys.argv[1]
 
 if __name__ == '__main__':
    main()
+   
