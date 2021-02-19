@@ -10,7 +10,7 @@
 - Boto3 is the name of the Python SDK for AWS. It allows you to directly create, update and delete AWS resources from your Python scripts.
 - How to install Boto3: From the command line, run `pip install boto3`.
 - The function, when run, will create an S3 bucket in AWS.
-- To authenticate to AWS: 
+- To authenticate to AWS:
   - From the command line, run `aws configure`.
   - I was prompted to enter the following information, obtained from my AWS Console: *Access Key ID*, *Secret Access Key*, *AWS Region*, and *Output Format*.
   - For the default region, I chose *eu-west-3*, but this resulted in an error when I ran the script.
