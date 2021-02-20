@@ -22,4 +22,4 @@
 
 This is the final result, with the S3 Bucket already up and running in AWS.
 
-![AWS Portal](Project2/portal_bucket_live.png)
+![AWS Portal](portal_bucket_live.png)

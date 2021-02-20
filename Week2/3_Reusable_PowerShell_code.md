@@ -6,4 +6,4 @@
 - Then, from the command line, run `New-ResourceGroup -rgName cloudskillsrg -location westeurope` (remember these two parameters are mandatory).
 - The result can be seen below
 
-![resource created](Project3/newresourcegroupcreated.png)
+![resource created](newresourcegroupcreated.png)
