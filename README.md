@@ -37,7 +37,7 @@ In this session, Michael Levan gives us an introduction to coding.
 - [x] [Reusable and clean PowerShell code](Week2/3_Reusable_PowerShell_code.md)
 - [x] [Linting in PowerShell and Python](Week2/4_Linting_PowerShell_Python.md)
 - [x] [Testing in PowerShell and Python](Week2/5_Testing_PowerShell_Python.md)
-- [ ] [Documenting code](Week2/6_Documenting_code.md)
+- [x] [Documenting code](Week2/6_Documenting_code.md)
 
 ## Week 3: Infrastructure as Code
 
