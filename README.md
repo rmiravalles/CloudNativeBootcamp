@@ -2,7 +2,14 @@
 
 This is the repository for the [Cloudskills](https://cloudskills.io/) Cloud Native DevOps Bootcamp projects. Here you'll find my journey, the projects I'm working on, notes on the lectures, and other additional resources.
 
-I'll divide this repo in folders named weeks. Under each week, I'll post that week's project, and some extra stuff related to the topics covered. The **Notes** file is where I'll keep the notes on the lecture
+I'll divide this repo in folders named weeks. Under each week, I'll post that week's project, and some extra stuff related to the topics covered. The **Notes** file is where I'll keep the notes on the lecture.
+
+### :star: Other members of the Cloudskills community with awesome repos :star:
+
+- @danielkomaz
+- @wayneforrester
+
+**KUDOS** to you and to all the members of the @CloudSkills community! Just hit me up and I'll include your repo here too!
 
 ## Week 1: DevOps Fundamental Skills
 
