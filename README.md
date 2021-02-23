@@ -6,10 +6,10 @@ I'll divide this repo in folders named weeks. Under each week, I'll post that we
 
 ### :star: Other members of the Cloudskills community with awesome repos :star:
 
-- @danielkomaz
-- @wayneforrester
+- [danielkomaz](https://github.com/danielkomaz/cloudskillsbootcamp)
+- [wayneforrester](https://github.com/wayneforrester/cloudskills-cloudnative-devops-bootcamp)
 
-**KUDOS** to you and to all the members of the @CloudSkills community! Just hit me up and I'll include your repo here too!
+**KUDOS** to you and to all the members of the [CloudSkills](https://github.com/cloudskills) community! Just hit me up and I'll include your repo here too!
 
 ## Week 1: DevOps Fundamental Skills
 
