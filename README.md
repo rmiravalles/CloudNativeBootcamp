@@ -50,6 +50,17 @@ In this session, Michael Levan gives us an introduction to coding.
 
 *February 24th*
 
+Luke Orellana takes us on a tour through Infrastructure-as-code, and its main concepts and tools
+
+- [My notes](Week3/Notes_week3.md)
+
+### Projects
+
+- [x] [Building an ARM template for virtual machine deployment in Azure](Week3/1_ARM_template_VM_Azure.md)
+- [ ] [Building a Terraform module to create a virtual network in AWS](Week3/2_Terraform_module_vnet_aws.md)
+- [ ] [Testing infrastructure-as-code](Week3/3_Testing_IaC.md)
+- [ ] [Intro to Azure Bicep](Week3/4_Intro_Azure_Bicep.md)
+
 ## Week 4: GitHub and Source Control
 
 *March 3rd*
