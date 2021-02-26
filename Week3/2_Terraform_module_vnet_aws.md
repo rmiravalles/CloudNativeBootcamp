@@ -24,3 +24,4 @@
 - Here are the final results. The EC2 instance running in the console, and the page displaying **My first Terraform module!**
 ![ecs aws console](ec2_running.png)
 ![My first Terraform module!](public_ip_ec2.png)
+- After that, I tore down the resources, by running `terraform destroy`.
