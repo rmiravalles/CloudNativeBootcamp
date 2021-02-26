@@ -37,3 +37,6 @@ terraform.rc
 
 # Ignore exe
 Week3/Project2/.terraform/providers/registry.terraform.io/hashicorp/aws/3.7.0/windows_amd64/terraform-provider-aws_v3.7.0_x5.exe
+
+# Ignore this too
+Week3/Project2/.terraform.lock.hcl

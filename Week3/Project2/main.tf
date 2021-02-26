@@ -1,3 +1,4 @@
+# this is the main file, which will call the modules
 terraform {
   required_providers {
       aws = {
@@ -12,7 +13,7 @@ provider "aws" {
 }
 
 module "webserver" {
-  source = "./modules/ec2"
-  servername = "terraformdemo"
+  source = "./modules/ec2"  # this specifies the path of the module being called upon
+  servername = "terraformdemo"  # here we are specifying the variables defined in the variables.tf file
   size = "t3.micro"
 }
