@@ -19,6 +19,8 @@ For this lab, we'll deploy a storage account using Bicep.
 - This action will create a new file called **main.json**, which is the skeleton of an ARM template.
 - We then start editing the **main.bicep** file with the code to create a storage account.
 - Once the file is saved, we run `bicep build main.bicep` again and the data will be compiled into the **main.json** file.
+- This is my [resulting bicep file](Project4/main.bicep).
+- And this is the [ARM template JSON file](Project4/main.json).
 - The **main.json**, which is the ARM template, is going to be the file we will use to deploy the resources to Azure.
 - First, we connect to our Azure account by running `az login`.
 - We then have to create a resource group or use an existing one. I created a new one called biceptestrg, with the following command: `az group create --name biceptestrg --location eastus`.
