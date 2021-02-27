@@ -1,8 +1,8 @@
 # Testing Infrastructure As Code
 
-- Gruntwork develop a testing tool to test Terraform code called Terratest.
+- [Gruntwork](https://gruntwork.io/) develop a testing tool to test Terraform code called [Terratest](https://terratest.gruntwork.io/).
 - Terratest is a Go library.
-- To install Go, go to the Go website.
+- To install Go, go to the [Go website](https://golang.org/).
 
 ## The lab
 
