@@ -34,6 +34,8 @@ func TestTerraformWebServerExample(t *testing.T) {
 
 	url := fmt.Sprintf("http://%s:8080", publicIp)
 
+	// this will run an HTTP get request, validate we are getting a 200 response with the "My first Terraform module!" content
+	// Terratest will run it for 30 times every 5 seconds
 	http_helper.HttpGetWithRetry(t, url, nil, 200, "My first Terraform module!", 30, 5*time.Second)
 
 }
