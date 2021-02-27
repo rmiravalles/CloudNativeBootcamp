@@ -58,7 +58,7 @@ Luke Orellana takes us on a tour through Infrastructure-as-code, and its main co
 
 - [x] [Building an ARM template for virtual machine deployment in Azure](Week3/1_ARM_template_VM_Azure.md)
 - [x] [Building a Terraform module to create a virtual network in AWS](Week3/2_Terraform_module_vnet_aws.md)
-- [ ] [Testing infrastructure-as-code](Week3/3_Testing_IaC.md)
+- [x] [Testing infrastructure-as-code](Week3/3_Testing_IaC.md)
 - [x] [Intro to Azure Bicep](Week3/4_Intro_Azure_Bicep.md)
 
 ## Week 4: GitHub and Source Control
