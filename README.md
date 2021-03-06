@@ -71,7 +71,7 @@ Michael Levan speaks about the importance of source control.
 
 ### Projects
 
-- [ ] [VS Code with Git and GitHub](Week4/1_VSCode_Git_GitHub.md)
+- [x] [VS Code with Git and GitHub](Week4/1_VSCode_Git_GitHub.md)
 - [ ] [Working through push conflicts](Week4/2_Working_Push_Conflicts.md)
 - [ ] [Contributing to an open source project](Week4/3_Contributing_Open_Source.md)
 

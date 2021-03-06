@@ -18,4 +18,4 @@ For this lab, we'll use VS Code to commit and push code to a GitHub repository.
 ![Source Control View 1](sourcecontrolview1.png)
 ![Source Control View 2](sourcecontrolview2.png)
 ![Source Control View 3](sourcecontrolview3.png)
-|[Source Control Sync Changes](sourcecontrolsync.png)
+![Source Control Sync Changes](sourcecontrolsync.png)
