@@ -65,6 +65,16 @@ Luke Orellana takes us on a tour through Infrastructure-as-code, and its main co
 
 *March 3rd*
 
+Michael Levan speaks about the importance of source control.
+
+- [My notes](Week4/Notes_week4.md)
+
+### Projects
+
+- [ ] [VS Code with Git and GitHub](Week4/1_VSCode_Git_GitHub.md)
+- [ ] [Working through push conflicts](Week4/2_Working_Push_Conflicts.md)
+- [ ] [Contributing to an open source project](Week4/3_Contributing_Open_Source.md)
+
 ## Week 5: Continuous Integration, Continuous Deployment, and Continuous Delivery
 
 *March 10th*

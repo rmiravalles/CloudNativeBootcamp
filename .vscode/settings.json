@@ -4,7 +4,8 @@
         "containerd",
         "cslab",
         "levan",
-        "rg"
+        "rg",
+        "unstage"
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
