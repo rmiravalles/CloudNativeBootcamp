@@ -72,7 +72,7 @@ Michael Levan speaks about the importance of source control.
 ### Projects
 
 - [x] [VS Code with Git and GitHub](Week4/1_VSCode_Git_GitHub.md)
-- [ ] [Working through push conflicts](Week4/2_Working_Push_Conflicts.md)
+- [x] [Working through push conflicts](Week4/2_Working_Push_Conflicts.md)
 - [ ] [Contributing to an open source project](Week4/3_Contributing_Open_Source.md)
 
 ## Week 5: Continuous Integration, Continuous Deployment, and Continuous Delivery
