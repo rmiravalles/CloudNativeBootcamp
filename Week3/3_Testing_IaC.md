@@ -22,6 +22,11 @@
 - We now need to download the libraries used in the code, with the command `go get -t -v`.
 - I encountered an error in this step. The command couldn't find the main module.
 - I fixed this error by running `go env -w GO111MODULE=auto`, with the help of Andrew Dawson, from the community.
+- [Daniel Komaz](https://github.com/danielkomaz/cloudskillsbootcamp/tree/main/Week-3-Infrastructure-As-Code), from the community, presented another solution. This looks better than the one described above.
+  1. Move to the terraform-aws-webserver root folder.
+  2. Initialize the Go modules: `go mod init terraform-aws-webserver`
+  3. Download module dependencies: `go mod tidy`
+  4. Move into the test directory: `cd test`
 - Before running the test, make sure to authenticate to AWS by running `aws configure`.
 - The command to run the test is `go test -v webserver_test.go`.
 - The test passed, and this is the result.
@@ -29,4 +34,4 @@
 
 ## Conclusion
 
-This was the most challenging project until now. I found the Go language challenging.
+This was the most challenging project until now. I found the Go language challenging. It took me some time to grasp the concept of modules and the GOPATH.
