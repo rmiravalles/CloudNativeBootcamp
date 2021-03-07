@@ -1,5 +1,10 @@
 # GitHub and Source Control
 
+- No need to store the code locally
+- A means to track and manage changes
+- Source of truth
+- A way to protect the code
+
 ## Source control best practices
 
 - **DON'T** commit passwords and secrets.

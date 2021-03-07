@@ -1,5 +1,11 @@
 # Contributing to an Open Source Project
 
+There are several reasons you should consider contributing to an open source project. Some of them are:
+
+- Increase your skills and competencies.
+- Increase your visibility.
+- You can do something for  others.
+
 ## Resources
 
 - [First Contributions](https://github.com/firstcontributions/first-contributions) is an interesting GitHub repo to try out your first contribution.
@@ -7,4 +13,4 @@
 
 ## My Project
 
-For this project, please see [My First Contribution](Project3/My_First_Contribution.md).
+For this project, please see [My First Contribution](Project3/My_First_Contribution.md). In this document, I describe the steps to contribute to a project on GitHub.

@@ -18,3 +18,7 @@
 - [Resolving a merge conflict on GitHub](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github).
 - [Resolving a merge conflict using the command line](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line).
 - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts) learning module from [GitHub Learning Lab](https://lab.github.com/).
+
+## The Project
+
+- To go deeper in the subject, I took the *Managing Merge Conflicts* learning module from GitHub Learning Lab. See above for the link to the module.
