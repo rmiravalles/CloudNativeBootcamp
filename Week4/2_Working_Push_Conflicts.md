@@ -1,5 +1,12 @@
 # Working Through Push Conflicts
 
+- When working with a local copy of the repository, if you don't pull down changes frequently, you're not going to have the latest image of the repo, with all the latest updates made by other contributors.
+- At this point, if you try to push changes to the remote repository, you're going to get an error that says your updates were rejected because the remote contains work that you do not have locally.
+- To check the status of your local working branch relative to the remote one, run `git status`.
+- To integrate the remote changes into your local branch, run `git pull`.
+
+## Merge Conflicts
+
 - Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge.
 - Often, merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.
 - You must resolve all merge conflicts before you can merge a pull request on GitHub.
