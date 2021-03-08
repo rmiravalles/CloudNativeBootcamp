@@ -21,4 +21,4 @@
 
 ## The Project
 
-- To go deeper in the subject, I took the *Managing Merge Conflicts* learning module from GitHub Learning Lab. See above for the link to the module.
+- To go deeper in the subject, I took the *Managing Merge Conflicts* learning module from GitHub Learning Lab. See above for the link to the module. [Here's the exercise](Project2/Managing_Merge_Conflicts.md).
