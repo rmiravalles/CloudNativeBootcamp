@@ -29,7 +29,7 @@
 
 ## Distributed Source Control
 
-- Every developer clones a copy of a repository and has the full history of the project.
+- Every developer clones a copy of a repository and has the full history of the project in his or her own local machine.
 - Much faster.
 
 Strengths | Best Used For
