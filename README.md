@@ -83,8 +83,8 @@ Michael Levan speaks about the importance of source control.
 
 ### Projects
 
-- [ ] [Deploying a web app via GitHub Actions](Week5/1_Deploy_Web_App_GitHubActions.md)
-- [ ] [Continuous Integration with GitHub Actions](Week5/2_CI_GitHubActions.md)
+- [x] [Deploying a web app via GitHub Actions](Week5/1_Deploy_Web_App_GitHubActions.md)
+- [x] [Continuous Integration with GitHub Actions](Week5/2_CI_GitHubActions.md)
 - [ ] [Terraform with GitHub Actions](Week5/3_Terraform_GitHubActions.md)
 - [ ] [Setting up continuous monitoring](Week5/4_Setting_Up_Continuous_Monitoring.md)
 - [ ] [Artifacts and packages in CI/CD](Week5/5_Artifacts_Packages_CICD.md)

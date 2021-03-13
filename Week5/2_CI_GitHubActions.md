@@ -7,7 +7,7 @@
 ## The Project
 
 - We will use a sample Flask app for this exercise.
-- The first step is to fork the project's repo to our own GitHub account.
+- The first step is to fork the project's repo to our own GitHub account. This is [my repository](https://github.com/suvo-oko/ci-pythonapp).
 - Once we have the forked repo we go over to the Actions tab.
 - GitHub Actions offers several sample actions we can use to get started. We're going to pick one from this list, from the *Continuous Integration* section, called *Python application*. As it says in the description, this action is used to test a Python application.
 - When we click on `Set up this workflow`, a new folder called `.github/workflows` is created. Inside this folder, we will find our new workflow yaml file.
@@ -58,7 +58,7 @@ jobs:
 - Each action has its own repo, where you can consult its uses, and its more recent version.
 - These are the two actions mentioned above:
   - [checkout](https://github.com/actions/checkout): this action checks out your repository, so the workflow can access it.
-  -  [setup-python](https://github.com/actions/setup-python): this action sets up a Python environment.
+  - [setup-python](https://github.com/actions/setup-python): this action sets up a Python environment.
 - The `run` parameter will upgrade pip, install the flake8 and pytest modules and the ones contained in the requirements.txt file.
 
 ```yaml
@@ -68,13 +68,21 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+- name: Test with pytest
       run: |
         mkdir testresults 
         pytest Tests/unit_tests --junitxml=./testresults/test-results.xml
-    - name: Publish Unit Test Results
+- name: Publish Unit Test Results
       uses: EnricoMi/publish-unit-test-result-action@v1.9
       with:
        files: ./testresults/test-results.xml
 ```
 
+- There are three jobs here: *Lint with flake8*, *Test with pytest*, and *Publish Unit Test Results*. The first two will execute a number of commands in the shell, and the third will execute an execute, obtained from the marketplace.
+
+- To test our CI pipeline, we'll change the file and push it to a new branch. This should trigger the workflow.
+- After cloning the repo to my local machine, I created a new branch, changed the index.html and pushed the changes to the GitHub repository.
+- The GitHub Action works! The workflow has been triggered and the tests were correctly executed. See images below.
+![workflows](project2_workflows.png)
+- These are the test results presented in this handy *junitxml* format.
+![test results](project2_unit_test_results.png)
