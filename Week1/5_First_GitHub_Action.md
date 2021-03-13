@@ -2,31 +2,35 @@
 
 ## Overview
 
-- GitHub Actions can be used to implement continuous integration (CI) for code that is maintained in GitHub repositories
+- GitHub Actions is a platform to automate workflows.
+- GitHub Actions can be used to implement continuous integration (CI) for code that is maintained in GitHub repositories.
 - CI is the practice of using automation to build and test software every time a developer commits changes to version control.
 - GitHub Actions help you automate tasks within your software development lifecycle
-- Event-driven
-- An event automatically triggers a *workflow*, which contains a *job*
-- A job uses *steps* to control the order in which *actions* are run
-- There are two types of Actions: container actions and JavaScript actions
-  - With container actions, the environment is part of the action's code. These actions can only be run in a Linux environment that GitHub hosts. Container actions support many different languages
-  - JavaScript actions don't include the environment in the code, which means you'll have to specify the environment to execute these actions. Actions can run in a VM in the cloud or on-premises
+- GitHub Actions are *event-driven*. 
+- An event automatically triggers a *workflow*, which contains a *job*.
+- A job uses *steps* to control the order in which *actions* are run.
+- There are two types of Actions: container actions and JavaScript actions.
+  - With container actions, the environment is part of the action's code. These actions can only be run in a Linux environment that GitHub hosts. Container actions support many different languages.
+  - JavaScript actions don't include the environment in the code, which means you'll have to specify the environment to execute these actions. Actions can run in a VM in the cloud or on-premises.
+- GitHub Actions uses YAML syntax to define the events, jobs, and steps. These YAML files are stored in your code repository, in a directory called `.github/workflows`.
 
 ## Components of GitHub Actions
 
 ### Workflows
 
-- Automated procedure that you add to your repository
-- Made up of one or more jobs
-- Can be scheduled or triggered by an event
+- Automated procedure that you add to your repository.
+- Made up of one or more jobs.
+- Can be scheduled or triggered by an event.
 
 ### Events
 
-- A specific activity that triggers a workflow
+- A specific activity that triggers a workflow.
+- An event is something that occurs on your repository. 
+- Some examples of events: a new pull request, the creation of a new branch, an issue or a tag, when a user forks a repository, when a new collaborator is added, etc.
 
 ### Jobs
 
-- A set of steps that execute on the same runner
+- A set of steps that execute on the same runner.
 
 ### Steps
 
@@ -47,7 +51,6 @@
 
 ## My first workflow
 
-- GitHub Actions uses YAML syntax to define the events, jobs, and steps. These YAML files are stored in your code repository, in a directory called `.github/workflows`
 <br><br>
 ![Learn GitHub Actions](myfirstgithubaction.png)
 <br><br>

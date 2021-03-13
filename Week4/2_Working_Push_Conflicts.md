@@ -1,6 +1,6 @@
 # Working Through Push Conflicts
 
-- When working with a local copy of the repository, if you don't pull down changes frequently, you're not going to have the latest image of the repo, with all the latest updates made by other contributors.
+- When working with a local copy of the remote   repository, if you don't pull down changes frequently, you're not going to have the latest image of the repo, with all the latest updates made by other contributors.
 - At this point, if you try to push changes to the remote repository, you're going to get an error that says your updates were rejected because the remote contains work that you do not have locally.
 - To check the status of your local working branch relative to the remote one, run `git status`.
 - To integrate the remote changes into your local branch, run `git pull`.

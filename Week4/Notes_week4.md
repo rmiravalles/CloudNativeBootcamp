@@ -22,7 +22,7 @@
 
 ## Centralzied Version Control
 
-- One server.
+- One centralized server.
 - Everyone uses the code stored in this one server.
 - Need Internet connection.
 - Single point of failure.
