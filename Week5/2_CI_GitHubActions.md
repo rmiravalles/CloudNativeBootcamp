@@ -54,4 +54,27 @@ jobs:
 
 - We'll first build our environment.
 - In our case, it will run inside a container running Ubuntu, hosted in GitHub's own servers.
-- The `uses` parameter will call for GitHub's built-in actions, and the `run` parameter will execute commands.
+- The `uses` parameter will call for GitHub's built-in actions, and the `run` parameter will execute command-line programs using the operating system's shell.
+- Each action has its own repo, where you can consult its uses, and its more recent version.
+- These are the two actions mentioned above:
+  - [checkout](https://github.com/actions/checkout): this action checks out your repository, so the workflow can access it.
+  -  [setup-python](https://github.com/actions/setup-python): this action sets up a Python environment.
+- The `run` parameter will upgrade pip, install the flake8 and pytest modules and the ones contained in the requirements.txt file.
+
+```yaml
+- name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Test with pytest
+      run: |
+        mkdir testresults 
+        pytest Tests/unit_tests --junitxml=./testresults/test-results.xml
+    - name: Publish Unit Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v1.9
+      with:
+       files: ./testresults/test-results.xml
+```
+
