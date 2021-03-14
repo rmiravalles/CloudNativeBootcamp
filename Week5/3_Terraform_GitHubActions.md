@@ -90,4 +90,5 @@ After several attempts, the build succeded!
 - It took me some time to nail down the formatting for the AZURE_CREDENTIALS secret, but in the end I figured it out.
 - In the video, Luke writes the environment variables with the Azure credentials directly in the code, but I used the secrets instead.
 - It's very important to read the error messages thoroughly. They pack a lot of information about the errors.
-- 
+- This is [my repository](https://github.com/suvo-oko/terraform-ghactions) for this project.
+  
