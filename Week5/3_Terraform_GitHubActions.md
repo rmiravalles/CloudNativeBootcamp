@@ -27,6 +27,7 @@
   "subscriptionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   "tenantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 }
+```
 
 - Terraform needs to connect to Azure, and therefore it also needs to be able to read the Azure credentials. We need to store these credentials in our code in environment variables that Terraform will recognize. That's how I did it:
 
