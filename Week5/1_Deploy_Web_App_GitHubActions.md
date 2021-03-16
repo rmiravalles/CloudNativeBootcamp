@@ -34,7 +34,7 @@
 - We'll now see the CI/CD pipeline in action.
 - Whenever new code is pushed to the repository's master branch, it will trigger the GitHub Action.
 - The Action will build the artifact (the finished and packaged application), run tests, deploy the app to Azure App Service, and run functional tests.
-- The DevOps Starter creation process created a new GitHub repository in my account. To test the CI/CD workflow, I cloned the repo to my local machine, made a change to the file, and push the new code to the master branch.
+- The DevOps Starter creation process created a new GitHub repository in my account. To test the CI/CD workflow, I cloned the repo to my local machine, made a change to the file, and pushed the new code back to the master branch.
 - This new push to the repo appears in the DevOps Starter dashboard.
 ![New push](new_push.png)
 - In the GitHub repository, in the Actions tab, we can see the action concluded successfully.
