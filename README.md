@@ -79,6 +79,8 @@ Michael Levan speaks about the importance of source control.
 
 *March 10th*
 
+This week is dedicated to the concepts, benefits, best practices and real-life uses of CI/CD.
+
 - [My notes](Week5/Notes_week5.md)
 
 ### Projects
@@ -88,11 +90,22 @@ Michael Levan speaks about the importance of source control.
 - [x] [Terraform with GitHub Actions](Week5/3_Terraform_GitHubActions.md)
 - [x] [Setting up continuous monitoring](Week5/4_Setting_Up_Continuous_Monitoring.md)
 - [x] [Artifacts and packages in CI/CD](Week5/5_Artifacts_Packages_CICD.md)
-- [ ] [Working with AWS CodeDeploy](Week5/6_Working_AWS_CodeDeploy.md)
+- [x] [Working with AWS CodeDeploy](Week5/6_Working_AWS_CodeDeploy.md)
 
 ## Week 6: Serverless in Azure ans AWS
 
 *March 17th*
+
+- [My Notes](Week6/Notes_week6.md)
+
+### Projects
+
+- [ ] [Build an Azure Function app](Week6/1_Azure_Function.md)
+- [ ] [Build an Azure Web App](Week6/2_Azure_WebApp.md)
+- [ ] [Deploy an Azure Web App via CI/CD in GitHub Actions](Week6/3_Azure_WebApp_CICD_GitHubActions.md)
+- [ ] [Create a Lambda Function](Week6/4_Lambda_Function.md)
+- [ ] [Security for serverless apps](Week6/5_Security_Serverless.md)
+- [ ] [Monitoring serverless apps in Azure and AWS](Week6/6_Monitoring_Serverless.md)
 
 ## Week 7: Security in Azure and AWS
 

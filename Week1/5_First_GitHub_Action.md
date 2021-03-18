@@ -25,7 +25,7 @@
 ### Events
 
 - A specific activity that triggers a workflow.
-- An event is something that occurs on your repository. 
+- An event is something that occurs on your repository. When this event occurs, it's going to trigger the jobs in the workflow.
 - Some examples of events: a new pull request, the creation of a new branch, an issue or a tag, when a user forks a repository, when a new collaborator is added, etc.
 
 ### Jobs
@@ -46,8 +46,9 @@
 
 ### Runners
 
-- A server that has the *GitHub Actions runner application* installed
-- A runner listens for available jobs, runs one job at a time, and reports the progress, logs, and results back to GitHub
+- A container environment that has the *GitHub Actions runner application* installed.
+- A runner listens for available jobs, runs one job at a time, and reports the progress, logs, and results back to GitHub.
+- By default, GitHub runs this container for you.
 
 ## My first workflow
 
