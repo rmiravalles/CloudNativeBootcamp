@@ -78,7 +78,7 @@ jobs:
        files: ./testresults/test-results.xml
 ```
 
-- There are three steps here: *Lint with flake8*, *Test with pytest*, and *Publish Unit Test Results*. The first two will execute a number of commands in the shell, and the third will execute an execute, obtained from the marketplace.
+- There are three steps here: *Lint with flake8*, *Test with pytest*, and *Publish Unit Test Results*. The first two will execute a number of commands in the shell, and the third will publish the unit test results. This last step is an action obtained from the marketplace.
 
 - To test our CI pipeline, we'll change the file and push it to a new branch. This should trigger the workflow.
 - After cloning the repo to my local machine, I created a new branch, changed the index.html and pushed the changes to the GitHub repository.
