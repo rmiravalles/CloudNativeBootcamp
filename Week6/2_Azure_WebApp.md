@@ -53,7 +53,7 @@ app_service_name      = "cloudskillsradapp"
 - My GitHub account was already authorized in the Azure Portal, so I immediately saw my organization and my repositories.
 - For **Workflow Option**, if you select **Add a workflow**, Azure will automatically create a GitHub Action for you. This is a great feature!
 - When you click on save, you'll be taken to the **Logs** tab, where you can see the progress of the current commit, and the previous commits.
-- After a considerable had passed, the build and deploy succeeded!
+- After a considerable time had passed, the build and deploy succeeded!
 ![Deployment Success](project2_deploymentsuccess.png)
 - And this is the app running.
 ![App running](project2_webapprunning.png)
