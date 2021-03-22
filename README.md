@@ -100,11 +100,11 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 
 ### Projects
 
-- [ ] [Build an Azure Function app](Week6/1_Azure_Function.md)
+- [x] [Build an Azure Function app](Week6/1_Azure_Function.md)
 - [x] [Build an Azure Web App](Week6/2_Azure_WebApp.md)
 - [ ] [Deploy an Azure Web App via CI/CD in GitHub Actions](Week6/3_Azure_WebApp_CICD_GitHubActions.md)
-- [ ] [Create a Lambda Function](Week6/4_Lambda_Function.md)
-- [ ] [Security for serverless apps](Week6/5_Security_Serverless.md)
+- [x] [Create a Lambda Function](Week6/4_Lambda_Function.md)
+- [x] [Security for serverless apps](Week6/5_Security_Serverless.md)
 - [ ] [Monitoring serverless apps in Azure and AWS](Week6/6_Monitoring_Serverless.md)
 
 ## Week 7: Security in Azure and AWS

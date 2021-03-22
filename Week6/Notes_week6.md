@@ -16,3 +16,34 @@
 
 - Azure Functions are part of the serverless backend family.
 - Azure Functions allow you to upload any type of backend code.
+
+## Azure Web Apps
+
+- Frontend code.
+- Supports many languages.
+- Can run pure code or in a container.
+
+## AWS Elastic Bean Stalk
+
+- Frontend code.
+- Supports multiple languages.
+- Here, you can also run containers.
+
+## Serverless Monitoring
+
+- In Azure: **Azure Monitor** and **Application Insights**.
+- In AWS: **Cloudwatch**.
+
+## Serverless Pros and Cons
+
+Pros | Cons
+------------ | -------------
+No infrastructure to manage | Data isn't stored
+Highly scalable | Vendor lock-in
+Pay for what you use | Debugging may be different for sysadmins
+
+## Serverless Kubernetes
+
+- GKE Autopilot from GCP.
+- No nodes need to be managed.
+- Billed per pod.

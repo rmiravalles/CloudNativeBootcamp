@@ -34,7 +34,14 @@ A programming paradigm that treats computation as the evaluation of mathematical
 
 #### Procedural Programming
 
-A programming paradigm, derived from structured programming, based upon the concept of the procedure call. Procedures, also known as routines, subroutines, or functions, simply contain a series of computational steps to be carried out.
+A programming paradigm, derived from structured programming, based upon the concept of the procedure call. Procedures, also known as routines, subroutines, or functions, simply contain a series of computational steps to be carried out. In procedural programming, we issue instructions to a computer in an ordered sequence.
+
+```python
+>>> i = 3
+>>> j = i + 1
+>>> i + j
+>>> 7
+```
 
 ### Idempotence
 

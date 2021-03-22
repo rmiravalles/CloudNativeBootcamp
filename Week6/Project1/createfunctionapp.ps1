@@ -10,6 +10,8 @@ function Create-FunctionApp {
         [string]$storageAccountName
     )
 
+    az group create --name $RGName --location westeurope
+    
     az storage account create --name $storageAccountName `
                                 --resource-group $RGName
 
