@@ -15,3 +15,7 @@ For this project we'll be using the [Serverless](https://www.serverless.com/) fr
 - The command to deploy the function is `serverless deploy`.
 - This is the newly created function:
 ![Lambda Function Console](project4_lambda_aws_console.png)
+
+## Conclusion
+
+- This was my first contact with the Serverless framework, and it seems like a very powerful tool. I'll have to explore it further, and try it with Azure Functions.

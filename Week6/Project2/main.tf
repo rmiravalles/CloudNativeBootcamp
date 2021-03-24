@@ -9,8 +9,8 @@ resource "azurerm_resource_group" "azurerg" {
 
 resource "azurerm_app_service_plan" "cloudskills-sp" {
   name                = var.app_service_plan_name
-  location            = var.location
-  resource_group_name = var.resource_group_name
+  location            = azurerm_resource_group.azurerg.location
+  resource_group_name = azurerm_resource_group.azurerg.name
   kind                = "Linux"
   reserved            = true
 
@@ -22,8 +22,8 @@ resource "azurerm_app_service_plan" "cloudskills-sp" {
 
 resource "azurerm_app_service" "cloudskills-ap" {
   name                = var.app_service_name
-  location            = azurerm_app_service_plan.cloudskills-sp.location
-  resource_group_name = azurerm_app_service_plan.cloudskills-sp.resource_group_name
+  location            = azurerm_resource_group.azurerg.location
+  resource_group_name = azurerm_resource_group.azurerg.name
   app_service_plan_id = azurerm_app_service_plan.cloudskills-sp.id
 
   site_config {

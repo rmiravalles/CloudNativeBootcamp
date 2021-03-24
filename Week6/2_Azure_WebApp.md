@@ -58,3 +58,11 @@ app_service_name      = "cloudskillsradapp"
 - And this is the app running.
 ![App running](project2_webapprunning.png)
 - After confirming everything is working, I ran `terraform destroy` to tear down the resources we built.
+
+## Conclusion
+
+- In the first iteration of my Terraform configuration, I used the same argument for the `resource_group_name` parameter in all 3 resource blocks present in the configuration, which was `var.resource_group_name`. This references the `variables.tf` file. When I first ran `terraform apply`, it gave me an error during the creation of the app service and app service plan, that stated that the resource group couldn't be found. A second `terraform apply` imemdiately afterwards succeeded in the creation of these resources.
+- Patrick Loftus, from the community, helped me spot my mistake. I have to reference the subsequent resources, the ones which depend on the creation of a previous resource to exist, with interpolation. Like that, we're creating an implicit dependency. Otherwise, we need to use the `depends_on` argument. This should be used only when Terraform can't automatically infer the dependency, or when there are hidden dependencies.
+- After updating my code, the `resource_group_name` parameter under the `azurerm_app_service_plan` and the `azurerm_app_service` resource blocks looked like this: `resource_group_name = azurerm_resource_group.azurerg.name`
+- The dependencies between resources is something we must pay attention to. By using interpolation, Terraform will be able to figure out the dependencies most of the time.
+- More detailed information about the `depends_on` can be [found here](https://www.terraform.io/docs/language/meta-arguments/depends_on.html).
