@@ -115,7 +115,7 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 
 ### Projects
 
-- [ ] [Securing code](Week7/1_Securing_Code.md)
+- [x] [Securing code](Week7/1_Securing_Code.md)
 - [ ] [Implementing Continuous Security](Week7/2_Continuous_Security.md)
 - [ ] [Security authentication in code](Week7/3_Security_Authentication.md)
 - [ ] [Creating IAM roles, users and groups](Week7/4_IAM_Roles.md)
