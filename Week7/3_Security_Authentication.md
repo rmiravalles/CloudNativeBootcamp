@@ -30,3 +30,8 @@ This image from Microsoft Docs illustrates very well the uses of managed identit
   3. `$password | Get-Member` : the `Get-Member` cmdlet gets the properties and methods of an object. This cmdlet's output shows the `SecretValue` property, which is the one that contains the secret.
   4. `$password.SecretValue` : this is the cmdlet we can use in our PowerShell scripts when we need to pass secrets.
 ![PowerShell](project3_powershell.png)
+
+## Extras
+
+- In the future, I want to learn more about [how to authenticate and authorize Python apps on Azure](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate).
+- A [tutorial on how to use a VM system assigned managed identity to access Azure Storage](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/tutorial-vm-windows-access-storage).
