@@ -118,8 +118,8 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 - [x] [Securing code](Week7/1_Securing_Code.md)
 - [x] [Implementing Continuous Security](Week7/2_Continuous_Security.md)
 - [x] [Security authentication in code](Week7/3_Security_Authentication.md)
-- [ ] [Creating IAM roles, users and groups](Week7/4_IAM_Roles.md)
-- [ ] [Creating RBAC rules and Azure Policies](Week7/5_RBAC_Policies.md)
+- [x] [Creating IAM roles, users and groups](Week7/4_IAM_Roles.md)
+- [x] [Creating RBAC rules and Azure Policies](Week7/5_RBAC_Policies.md)
 
 ## Week 8: Containerization and Kubernetes
 
