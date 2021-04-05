@@ -109,7 +109,7 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 
 ## Week 7: Security in Azure and AWS
 
-*March 24th
+*March 24th*
 
 - [My Notes](Week7/Notes_Week7.md)
 
@@ -124,6 +124,18 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 ## Week 8: Containerization and Kubernetes
 
 *March 31st*
+
+- [My Notes](Week8/Notes_Week8.md)
+
+### Projects
+
+- [ ] [Creating a Minikube environment](Week8/1_Minikube_Env.md)
+- [ ] [Creating an AKS cluster](Week8/2_AKS_Cluster.md)
+- [ ] [Deploying to AKS](Week8/3_Deploy_AKS.md)
+- [ ] [Creating an EKS cluster](Week8/4_EKS_Cluster.md)
+- [ ] [Deploying to EKS](Week8/5_Deploy_EKS.md)
+- [ ] [Using Azure ACI](Week8/6_Azure_ACI.md)
+- [ ] [Using AWS Fargate](Week8/7_AWS_Fargate.md)
 
 ## Week 9: Monitoring and Logging
 
