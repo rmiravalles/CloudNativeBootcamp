@@ -129,9 +129,9 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 
 ### Projects
 
-- [ ] [Creating a Minikube environment](Week8/1_Minikube_Env.md)
-- [ ] [Creating an AKS cluster](Week8/2_AKS_Cluster.md)
-- [ ] [Deploying to AKS](Week8/3_Deploy_AKS.md)
+- [x] [Creating a Minikube environment](Week8/1_Minikube_Env.md)
+- [x] [Creating an AKS cluster](Week8/2_AKS_Cluster.md)
+- [x] [Deploying to AKS](Week8/3_Deploy_AKS.md)
 - [ ] [Creating an EKS cluster](Week8/4_EKS_Cluster.md)
 - [ ] [Deploying to EKS](Week8/5_Deploy_EKS.md)
 - [ ] [Using Azure ACI](Week8/6_Azure_ACI.md)
@@ -140,6 +140,17 @@ This week is dedicated to the concepts, benefits, best practices and real-life u
 ## Week 9: Monitoring and Logging
 
 *April 7th*
+
+- [My Notes](Week9/Notes_Week9.md)
+
+### Projects
+
+- [ ] [Monitoring Azure IaaS](Week9/1_Azure_IaaS.md)
+- [ ] [Monitoring serverless platforms](Week9/2_Serverless.md)
+- [ ] [Azure Monitor and alerting](Week9/3_Azure_Monitor.md)
+- [ ] [Azure logging and metrics](Week9/4_Azure_logs_metrics.md)
+- [ ] [AWS Cloudwatch](Week9/5_AWS_Cloudwatch.md)
+- [ ] [Container monitoring with Prometheus](Week9/6_Prometheus.md)
 
 ## Week 10: Where To Go From Here (Career Prep)
 
